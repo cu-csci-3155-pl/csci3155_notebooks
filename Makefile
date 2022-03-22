@@ -1,9 +1,9 @@
 
 default:
 	@echo Installing pre-commit hook
-	cp .hooks/pre-commit-nbconvert .git/hooks
 	pip install markdown
-	cp .hooks/pre-commit-md .git/hooks
+	cat .hooks/pre-commit-nbconvert .hooks/pre-commit-md > .git/hooks/pre-commit
+	chmod ugo+x .git/hooks/pre-commit
 
 html:
 	jupyter nbconvert */*.ipynb --to html

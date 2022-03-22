@@ -5,7 +5,7 @@
 
 set -euo pipefail
 
-IPYNB_FILE_PATHS=`git diff --staged --name-only | awk "/.ipynb/"`
+IPYNB_FILE_PATHS=`git diff --staged --name-only | awk "/.\.ipynb/"`
 PROJECT_ROOT_PATH=`git rev-parse --show-toplevel`
 
 function get_script_extension() {
