@@ -1,0 +1,32 @@
+#!/bin/bash
+#
+# From https://github.com/Smarker/jupyter-githook-sample/blob/master/.githooks/pre-commit
+#
+
+set -euo pipefail
+
+MD_FILE_PATHS=`git diff --staged --name-only | awk "/.md/"`
+PROJECT_ROOT_PATH=`git rev-parse --show-toplevel`
+
+function get_script_extension() {
+    file_path=$1
+    echo $(cat $file_path | jq -r '.metadata.file_extension')
+}
+
+if [[ -n "$MD_FILE_PATHS" ]]; then
+    echo "Saving changes to these notebooks: $MD_FILE_PATHS"
+    for md_file_path in $MD_FILE_PATHS
+    do
+        file_no_extension="${md_file_path%.*}"
+	file_html_extension="${md_file_path%.*}.html"
+
+        # if file exists and is not a checkpoint file
+        if [[ -f "$md_file_path" ]] && [[ "$md_file_path" != *"checkpoint"* ]]; then
+              echo "Creating html from markdown..."
+            pip -m markdown "$md_file_path" > $file_html_extension
+        fi
+    done
+fi
+
+# add the newly created files to the current commit
+git add -A
