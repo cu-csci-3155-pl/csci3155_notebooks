@@ -11,7 +11,7 @@ You can read the notebooks in a couple ways:
 # Chapter Descriptions
 * Introduction
   * Introduction-To-Programming-Languages.ipynb ( [Notebook](1/Introduction-To-Programming-Languages.ipynb), [HTML](1/Introduction-To-Programming-Languages.html) )
-  * Basic-Introduction-to-Scala.ipynb ( [Notebook](1/Basic-Introduction-to-Scala.ipynb),.html](1/Basic-Introduction-to-Scala.html) )
+  * Basic-Introduction-to-Scala.ipynb ( [Notebook](1/Basic-Introduction-to-Scala.ipynb),[HTML](1/Basic-Introduction-to-Scala.html) )
 * Constructing Programs
   * Recursion.ipynb ( [Notebook](2/Recursion.ipynb), [HTML](2/Recursion.html) )
   * Inductively-Defined-Structures.ipynb ( [Notebook](2/Inductively-Defined-Structures.ipynb), [HTML](2/Inductively-Defined-Structures.html) )
