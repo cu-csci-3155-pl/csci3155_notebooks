@@ -1,0 +1,24 @@
+mv "1/Basic Introduction to Scala.ipynb"                 1/Basic-Introduction-to-Scala.ipynb             
+mv "1/Introduction To Programming Languages.ipynb"	 1/Introduction-To-Programming-Languages.ipynb   
+mv "2/Inductively Defined Structures.ipynb"		 2/Inductively-Defined-Structures.ipynb          
+mv "2/Recursion.ipynb"					 2/Recursion.ipynb                               
+mv "3/OperationsInductiveDefinitions.ipynb"		 3/OperationsInductiveDefinitions.ipynb          
+mv "3/Parsers in Scala.ipynb"				 3/Parsers-in-Scala.ipynb                        
+mv "4/Big-Step-Semantics-Expressions.ipynb"		 4/Big-Step-Semantics-Expressions.ipynb          
+mv "4/map-reduce-filter.ipynb"				 4/map-reduce-filter.ipynb                       
+mv "5/Lettuce - The Let Language.ipynb"			 5/Lettuce---The-Let-Language.ipynb              
+mv "5/Lettuce-Scopes-Environments.ipynb"		 5/Lettuce-Scopes-Environments.ipynb             
+mv "6/Lettuce-Function-Calls.ipynb"			 6/Lettuce-Function-Calls.ipynb                  
+mv "7/RecursionInLettuce.ipynb"				 7/RecursionInLettuce.ipynb                      
+mv "8/CallingConventions.ipynb"				 8/CallingConventions.ipynb                      
+mv "8/GarbageCollection.ipynb"				 8/GarbageCollection.ipynb                       
+mv "8/Implicit-References-Vars.ipynb"			 8/Implicit-References-Vars.ipynb                
+mv "8/References-And-Mutable-Vars-Lettuce.ipynb"	 8/References-And-Mutable-Vars-Lettuce.ipynb     
+mv "9/Continuation-Passing-Style.ipynb"			 9/Continuation-Passing-Style.ipynb              
+mv "9/Trampolines.ipynb"				 9/Trampolines.ipynb                             
+mv "10/TypeInferenceLettuce.ipynb"			 10/TypeInferenceLettuce.ipynb                   
+mv "10/Types and Type Checking in Lettuce.ipynb"	 10/Types-and-Type-Checking-in-Lettuce.ipynb     
+mv "11/Type Inference Using Unification.ipynb"		 11/Type-Inference-Using-Unification.ipynb       
+mv "12/IntroductionToObjectOrientedConcepts.ipynb"	 12/IntroductionToObjectOrientedConcepts.ipynb   
+mv "12/TraitsGenericsAndVariances.ipynb"		 12/TraitsGenericsAndVariances.ipynb             
+mv "13/SubTyping and Variance Annotations.ipynb"	 13/SubTyping-and-Variance-Annotations.ipynb     
